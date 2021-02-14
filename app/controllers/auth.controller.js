@@ -62,7 +62,7 @@ exports.signUp = (req, res) => {
     });
 };
 
-exports.signIn = (req, res) => {
+exports.signin = (req, res) => {
 
     User.findOne({
         username: req.body.username
