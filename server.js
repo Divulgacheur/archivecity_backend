@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-    origin: "http://localhost:"+ process.env.PORT
+    origin: "https://woa-project.web.app"
 };
 
 app.use(cors(corsOptions));
